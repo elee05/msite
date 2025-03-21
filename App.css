@@ -1,0 +1,82 @@
+body {
+  /* font-family: "Mina"; */
+  font-family:  monospace;
+  /* background-color: #423d93a5; */
+  /* background: rgba(0, 0, 0, 0.836); */
+  background-color: #27272A;
+  color: #f5efff88;;
+}
+
+#main {
+  display:flex;
+}
+
+#about {
+  width: 40%;
+  margin: 30px auto;
+  background-color: #f5efff52;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#chat,
+#projects,
+#exp {
+  width: 90%;
+  margin: 30px auto;
+  background-color: #f5efff52;
+  color:black;
+  padding: 30px;
+  border-radius: 20px;
+
+}
+
+#projects h2,
+#about h2,
+#chat h2,
+#exp h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 15px;
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project,
+.job {
+  /* background-color:#f5efff52; */
+  background: #69676E;
+  margin: 0 auto;
+  /* margin-bottom: 30px; */
+  width: 90%;
+  padding: 25px;
+  /* border-radius: 20px; */
+  font-size: 15px;
+  border-top: 1px solid #262728bd
+  
+
+}
+
+#projects li,
+.job li {
+  margin-left: 25px;
+  margin-right:120px;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  border: 0.2rem solid #0c073f;
+  border-radius: 0.2rem;
+  background-color: #000000;
+  color: #e5d9f2;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #797786;
+  color: #11073f;
+}
