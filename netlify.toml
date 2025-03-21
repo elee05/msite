@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+  git remote add origin 
+  git remote set-url origin https://github.com/elee05/site.git
